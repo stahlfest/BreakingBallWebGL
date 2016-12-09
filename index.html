@@ -22,7 +22,7 @@
     div.title { height: 38px; line-height: 38px; padding: 0 10px; margin: 0 1px 0 0; float: right; color: #333; text-align: right; font-size: 18px; position: relative; z-index: 10; }
     .template-wrap { position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
     .template-wrap canvas { margin: 0 0 10px 0; position: relative; z-index: 9; box-shadow: 0 10px 30px rgba(0,0,0,0.2); -moz-box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
-    .fullscreen {position: relative; z-index: 10; cursor: pointer; display: block; margin: 1em auto; width: 19em; padding: 0.7em 0 0.4em; background: #7dff9e; border-radius: 4px; border: 1px solid #64cd7f;}
+    .fullscreen {position: relative; z-index: 10; cursor: pointer; display: block; margin: 1em auto; width: 12.8em; padding: 0.7em 0 0.4em; background: #7dff9e; border-radius: 4px; border: 1px solid #64cd7f;}
     .fullscreen:hover { color: #fff; background: #64cd7f;}
     .desktop-version { color: #c842ae;}
     .desktop-version:hover { color: #0deabc;}
@@ -35,7 +35,7 @@
   </head>
   <body class="template">
     <div class="template-wrap clear">
-      <div class="fullscreen" onclick="SetFullscreen(1);"><p style="display: inline; margin: 1em; top: -0.8em; position: relative;">Remember to play in fullscreen</p><img src="TemplateData/fullscreen.png" style="display: inline;" width="38" height="38" alt="Fullscreen" title="Fullscreen" /></div>
+      <div class="fullscreen" onclick="SetFullscreen(1);"><p style="display: inline; margin: 1em; top: -0.8em; position: relative;">Play in fullscreen</p><img src="TemplateData/fullscreen.png" style="display: inline;" width="38" height="38" alt="Fullscreen" title="Fullscreen" /></div>
       <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
       <br>
       <a href="http://breakingballgame.com/" target="_blank" class="desktop-version">Get the desktop version of the game on BreakingBallGame.com</a>
@@ -46,9 +46,9 @@
     TOTAL_MEMORY: 268435456,
     errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
     compatibilitycheck: null,
-    dataUrl: "Release/bb-0.1.7.data",
-    codeUrl: "Release/bb-0.1.7.js",
-    memUrl: "Release/bb-0.1.7.mem",
+    dataUrl: "Release/Breaking Ball 0.1.8.data",
+    codeUrl: "Release/Breaking Ball 0.1.8.js",
+    memUrl: "Release/Breaking Ball 0.1.8.mem",
 
   };
 </script>
